@@ -1,3 +1,7 @@
 django-filter==2.2.0
 djangorestframework==3.11.0
+
 mysqlclient==1.4.6
+
+django-prometheus==2.0.0
+prometheus-client==0.7.1

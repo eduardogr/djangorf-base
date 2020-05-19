@@ -1,4 +1,4 @@
-CONTAINER_NAME=api
+CONTAINER_NAME=drf-api
 
 env ?= dev # get from cl or 'dev' by default
 
