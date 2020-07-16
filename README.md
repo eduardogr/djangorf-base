@@ -19,6 +19,10 @@ Base django rest framework for other DRF projects
 - MySQL
 - Prometheus
 
+# Development environment
+
+
+
 # Prometheus
 
 ## Some available metrics

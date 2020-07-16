@@ -15,6 +15,6 @@ COPY . /usr/api
 RUN pip3 install --no-cache-dir -r /usr/api/requirements/${BUILD_ENV}.txt
 
 EXPOSE 8000
-WORKDIR /usr/api/tutorial
+WORKDIR /usr/api/drf-base
 
 ENTRYPOINT ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
