@@ -6,7 +6,7 @@
 
 Base django rest framework for other DRF projects
 
-## :bookmark_tabs: Table of Contents
+## Table of Contents
 
 0. [Tech stack](#tech-stack)
 0. [Prometheus](#prometheus)
@@ -37,8 +37,8 @@ Base django rest framework for other DRF projects
 - sum(rate(django_http_requests_latency_seconds_by_view_method_bucket[30s])) BY (job, method)
 - sum(rate(django_http_responses_body_total_bytes_bucket[30s])) by (job)
 
-# :family: Contributing
+# Contributing
 
-# :page_with_curl: License
+# License
 
 This project is licensed under the [Apache license](https://github.com/eduardogr/evalytics/blob/main/LICENSE).
