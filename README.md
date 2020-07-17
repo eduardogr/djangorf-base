@@ -12,6 +12,8 @@
 <img src="doc/arquitecture.png" alt="drawing" align="center" width="657" height="504"/>
 </div>
 
+Diagram drawn using [diagrams](https://github.com/mingrammer/diagrams).
+
 ## Table of Contents
 
 0. [Introduction](#introduction)
