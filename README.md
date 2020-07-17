@@ -4,24 +4,22 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/eduardogr/evalytics/blob/master/.github/CONTRIBUTING.md)
 [![GitHub license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/eduardogr/djangorf-base/blob/master/LICENSE)
 
-Base django rest framework for other DRF projects
+# Introduction
+
+**djangorf-base** is a Django project built with the aim of **avoiding boilerplate** and being used as the **base** of other projects to build **REST APIs** using django-rest-framework.
+
+<div align="center">
+<img src="doc/arquitecture.png" alt="drawing" align="center" width="657" height="504"/>
+</div>
 
 ## Table of Contents
 
-0. [Tech stack](#tech-stack)
-0. [Prometheus](#prometheus)
+0. [Introduction](#introduction)
+0. [Development](#development)
 0. [Contributing](#family-contributing)
 0. [License](#page_with_curl-license)
 
-# Tech stack
-
-- Django Rest Framework
-- MySQL
-- Prometheus
-
-# Development environment
-
-
+# Development
 
 # Prometheus
 
