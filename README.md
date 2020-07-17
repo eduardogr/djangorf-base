@@ -21,6 +21,16 @@
 
 # Development
 
+This projects is built using `docker`, `docker-compose` and `make` within the development environment.
+
+`make build && make up` will up and run the django rest server.
+
+## API Requests
+
+```
+curl -H 'Accept: application/json; indent=4' -u user:passwd http://127.0.0.1:8000/users/
+```
+
 # Prometheus
 
 ## Some available metrics

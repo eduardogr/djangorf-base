@@ -20,3 +20,10 @@ down:
 
 test:
 	docker-compose exec $(CONTAINER_NAME) pytest $(ARGS)
+
+monitoring-up:
+	docker-compose --file docker-compose.monitoring.yaml up -d
+
+monitorgin-down:
+	docker-compose down \
+			--file docker-compose.monitoring.yaml

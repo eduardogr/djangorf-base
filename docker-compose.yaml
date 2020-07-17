@@ -27,7 +27,7 @@ services:
       - "8000:8000"
     volumes:
       - "./:/usr/api"
-    depends_on: ['mysql', 'prometheus']
+    depends_on: ['mysql']
 
 volumes:
   db:
